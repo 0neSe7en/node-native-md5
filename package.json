@@ -1,0 +1,29 @@
+{
+  "name": "native-md5",
+  "version": "0.0.1",
+  "description": "Calculate file md5 via md5sum on Linux and md5 on Mac.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0neSe7en/node-native-md5.git"
+  },
+  "keywords": [
+    "md5",
+    "native",
+    "linux",
+    "mac",
+    "file"
+  ],
+  "author": "0neSe7en",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/0neSe7en/node-native-md5/issues"
+  },
+  "homepage": "https://github.com/0neSe7en/node-native-md5#readme",
+  "dependencies": {
+    "execa": "^0.8.0"
+  }
+}
