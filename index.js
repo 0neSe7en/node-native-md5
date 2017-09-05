@@ -39,7 +39,7 @@ function nativeMd5(command, fileName, regex) {
       return calcMd5(fileName);
     }
   }).catch(err => {
-    console.error(err);
+    console.error('Error:', err);
     return calcMd5(fileName);
   })
 }
